@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+header{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main li {
+	display: inline-block;
+}
+.main li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+}
+.main li.active a{
+	border: 0.5px solid red;
+}
+.main li.ab a{
+border: 0.5px solid blue;
+}
+.main li.ac a{
+border: 0.5px solid yellow;
+}
+.main li.ad a{
+border: 0.5px solid purple;
+}
+.main li.ae a{
+border: 0.5px solid aqua;	
+}
+.main li.af a{
+border: 0.5px solid pink;	
+}

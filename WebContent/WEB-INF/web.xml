@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Agence_Voyage1</display-name>
+  <welcome-file-list>
+    <welcome-file>contactClient.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>ContactProcess</servlet-name>
+  	<servlet-class>agence.voyage.client.ContactProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>ContactProcess</servlet-name>
+  <url-pattern>/ContactProcess</url-pattern >
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>contactAdministratif.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>AdminProcess</servlet-name>
+  	<servlet-class>agence.voyage.admin.AdminProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>AdminProcess</servlet-name>
+  <url-pattern>/AdminProcess</url-pattern >
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>ajoute.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>VoyageProcess</servlet-name>
+  	<servlet-class>agence.voyage.voyage.VoyageProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>VoyageProcess</servlet-name>
+  <url-pattern>/VoyageProcess</url-pattern >
+  </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>single-blog.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>MatchV</servlet-name>
+  	<servlet-class>agence.voyage.voyage.MatchV</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>MatchV</servlet-name>
+  <url-pattern>/MatchV</url-pattern >
+  </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>supprimation.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>VoyageProcess</servlet-name>
+  	<servlet-class>agence.voyage.voyage.VoyageProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>VoyageProcess</servlet-name>
+  <url-pattern>/VoyageProcess</url-pattern >
+  </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>addpromotion.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>Promotion</servlet-name>
+  	<servlet-class>agence.voyage.voyage.Promotion</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>Promotion</servlet-name>
+  <url-pattern>/Promotion</url-pattern >
+  </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>Message.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>MessageProcess</servlet-name>
+  	<servlet-class>agence.voyage.contact.MessageProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>MessageProcess</servlet-name>
+  <url-pattern>/MessageProcess</url-pattern >
+  </servlet-mapping>
+   
+  
+   <welcome-file-list>
+    <welcome-file>Randonné.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess</servlet-name>
+  <url-pattern>/PanierProcess</url-pattern >
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>neige.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess4</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess4</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess4</servlet-name>
+  <url-pattern>/PanierProcess4</url-pattern >
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>Croissiére.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess3</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess3</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess3</servlet-name>
+  <url-pattern>/PanierProcess3</url-pattern >
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>Montagne.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess2</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess2</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess2</servlet-name>
+  <url-pattern>/PanierProcess2</url-pattern >
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>Animaux.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess1</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess1</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess1</servlet-name>
+  <url-pattern>/PanierProcess1</url-pattern >
+  </servlet-mapping> 
+   
+   
+   <welcome-file-list>
+    <welcome-file>p.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess</servlet-name>
+  <url-pattern>/PanierProcess</url-pattern >
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>testingPro.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+  	<servlet-name>PanierProcess</servlet-name>
+  	<servlet-class>agence.voyage.panier.PanierProcess</servlet-class>
+  </servlet>
+   <servlet-mapping>
+  <servlet-name>PanierProcess</servlet-name>
+  <url-pattern>/PanierProcess</url-pattern >
+  </servlet-mapping>
+  
+  
+   
+</web-app>
+</element>
